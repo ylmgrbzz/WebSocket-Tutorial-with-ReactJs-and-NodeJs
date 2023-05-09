@@ -51,15 +51,7 @@ function App() {
   return (
     <div className="App">
       <h1>WebSocket Chat</h1>
-      <div className="message-container">
-        {messages.map((msg, index) => (
-          <div key={index} className="message">
-            <span className="timestamp">{msg.timestamp}</span>
-            <span className="timestamp">{msg}</span>
-            <span className="content">{msg.content}</span>
-          </div>
-        ))}
-      </div>
+
       <div className="input-container">
         <input
           type="text"
